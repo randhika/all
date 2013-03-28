@@ -12,8 +12,6 @@ public class SimpleWorker extends MigrantWorker {
 	}
 
 	public static void main(String[] args) {
-		BeanContext
-				.setConfigFile("/Users/start/Documents/Developer/eclipse/fourinone/src/config.xml");
 		SimpleWorker mw = new SimpleWorker();
 		mw.waitWorking("simpleworker");
 	}

@@ -29,7 +29,6 @@ public class SimpleCtor extends Contractor
 	
 	public static void main(String[] args)
 	{
-		BeanContext.setConfigFile("/Users/start/Documents/Developer/eclipse/fourinone/src/config.xml");
 		SimpleCtor a = new SimpleCtor();
 		a.giveTask(null);
 	}
