@@ -1,10 +1,8 @@
 package com.demo1;
 
-import com.fourinone.BeanContext;
 import com.fourinone.Contractor;
 import com.fourinone.WareHouse;
 import com.fourinone.WorkerLocal;
-import java.util.ArrayList;
 
 public class SimpleCtor extends Contractor
 {
